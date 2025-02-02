@@ -9,6 +9,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     background: linear-gradient(to right, maroon, rgb(142, 72, 172));
+    background-size: cover;
     font-family: "Macondo";
     color: white;
     padding: 30px;
