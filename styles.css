@@ -97,3 +97,13 @@ footer {
     background: linear-gradient(to right, maroon, rgb(142, 72, 172));
     color: white;
 }
+@media (max-width: 768px) {
+    section {
+      flex-direction: column; /* Stacks them on small screens */
+      align-items: center;
+    }
+  
+    .image {
+      max-width: 100%; /* Prevents shrinking issues */
+    }
+  }
