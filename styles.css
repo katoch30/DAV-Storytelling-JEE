@@ -5,11 +5,7 @@ body {
     background-color: #f4f4f4;
 }
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     background: linear-gradient(to right, maroon, rgb(142, 72, 172));
-    background-size: cover;
     font-family: "Macondo";
     color: white;
     padding: 30px;
@@ -57,7 +53,6 @@ nav ul li {
 }
 section {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 80% ;
